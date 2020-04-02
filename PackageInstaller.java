@@ -17,6 +17,7 @@ public class PackageInstaller
     // - make the dependency resolution smart - look in a list of installed areas (in priority) and return packages found and let the user choose?
     // - test with multiple tiered installations (like an installer calling other installers)
     // - make the prompt output better
+    // - how to handle shortcuts? 'rt' desktop folder divided by shortcuts? release generate the shortcuts?
     private static final Path PACKAGE_PATH = Paths.get("package");
     private static final Path PATHS_FILE   = Paths.get("paths");
 
